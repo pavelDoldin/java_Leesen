@@ -7,6 +7,7 @@ public class Main {
         String text = "Привет с новым годом !";
         lessenStringSplit.textSplit(text);
 
-
+        LessenFactorial lessenFactorial = new LessenFactorial();
+        System.out.println(lessenFactorial.factorial(5));
     }
 }
